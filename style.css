@@ -1,83 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  justify-content: space-between;
+  display: flex;
+}
+.logo {
+  padding: 25px;
+}
+.header-navbar ul {
+  display: flex;
+}
+.header-navbar ul li a {
+  color: black;
+  text-decoration: none !important;
+}
+.header-navbar ul {
+    padding: 0px !important;
+    margin: 0 !important;
+}
+.main-food-column {
+    margin-top: 150px;
+}
+.video_bg video {
+    height: 119dvh;
+}
+li.btn:hover {
+  border-radius: 45px;
+  background: #ff2b85;
+}
+li.btn {
+  background: #ff2b85;
+}
+.banner-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-family: arial;
+    font-weight: 900;
+    align-items: center;
+}
+li.btn {
+  border-radius: 45px;
+}
+.header-navbar ul li {
+  padding: 12px;
+  font-weight: 700;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header-navbar ul {
+    padding: 20px !important;
+}
+li.btn {
+    border: none !important;
+}
+.header-navbar ul li:hover {
+    transition-duration: 0.3s;
+  border-top: 4px solid #ff2b85;
+}
+li.btn button {
+  background: transparent;
+}
+li.btn button {
+  border-radius: 35px;
+  border: none;
+}
+li.btn button a {
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #fff;
+}
 .main-column {
-    justify-content: space-evenly;
-    display: flex;
-    flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
 }
 .food-column {
-    width: 400px ;
-}
-.food-column img{
-    width: 100% ;
-}
-.food-column h1 {
-    font-weight: 700;
-    font-family: sans-serif;
-    font-size: 14px !important;
-    color: #ff2b85;
+  width: 400px;
 }
 .food-column img {
-    height: 204px;
-    object-fit: cover;
-    object-position: top !important;
+  width: 100%;
+}
+.food-column h1 {
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 14px !important;
+  color: #ff2b85;
+}
+.food-column img {
+  height: 204px;
+  object-fit: cover;
+  object-position: top !important;
 }
 .food-column h4 {
-    font-weight: 700;
-    font-family: sans-serif !important;
-    font-size: 16px !important;
+  font-weight: 700;
+  font-family: sans-serif !important;
+  font-size: 16px !important;
 }
 .food-column p {
-    font-family: sans-serif;
-    font-size: 14px;
-    color: #343b46 !important;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #343b46 !important;
 }
-.food-column img{
-    transition: 0.3s;
-    cursor: pointer;
+.food-column img {
+  transition: 0.3s;
+  cursor: pointer;
 }
-.food-column img:hover{
-    transition-duration: 2s;
-    border-radius: 10px !important;
-    transform: scale(1.2) rotate(2deg) !important; 
+.food-column img:hover {
+  transition-duration: 2s;
+  border-radius: 10px !important;
+  transform: scale(1.2) rotate(2deg) !important;
 }
 .food-column {
-    flex-wrap: wrap;
-    overflow: hidden;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 figure {
-    margin-inline: 0;
-    margin-block: 0;
-    /* padding-inline: 0; */
+  margin-inline: 0;
+  margin-block: 0;
+  /* padding-inline: 0; */
 }
 .food-column figure {
-    overflow: hidden !important;
+  overflow: hidden !important;
 }
-.food-column figure{
-    background: #00000052 !important;
+.food-column figure {
+  background: #00000052 !important;
 }
 .food-column figure img:hover {
-    mix-blend-mode: darken;
+  mix-blend-mode: darken;
 }
 .main-column {
-    display: flex;
+  display: flex;
 }
 
 .food-column:hover .hover-food {
-    transform:translate3d(0,-20px,0);
-    display: block;
-}
-.hover-food{
-    transform:translate3d(0,-50px,0);
-    transition:transform .8s ease 0s;
+  transform: translate3d(0, -20px, 0);
+  display: block;
 }
 .hover-food {
-    border-radius: 10px;
-    height: 140px;
-    margin: 0 auto;
-    background: white;
-    width: 90%;
-    padding: 10px;
-    box-shadow: 1px 2px 10px -5px;
+  transform: translate3d(0, -50px, 0);
+  transition: transform 0.8s ease 0s;
+}
+.hover-food {
+  border-radius: 10px;
+  height: 140px;
+  margin: 0 auto;
+  background: white;
+  width: 90%;
+  padding: 10px;
+  box-shadow: 1px 2px 10px -5px;
 }
 .food-column figure {
-    border-radius: 10px;
+  border-radius: 10px;
 }
